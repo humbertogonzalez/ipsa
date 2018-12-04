@@ -1,0 +1,32 @@
+Array
+(
+    [name] => Libro1.xlsx
+    [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+    [tmp_name] => /Applications/MAMP/tmp/php/phpLtyZ2D
+    [error] => 0
+    [size] => 23898
+)
+Array
+(
+    [name] => Libro1.xlsx
+    [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+    [tmp_name] => /Applications/MAMP/tmp/php/phpW5Qerw
+    [error] => 0
+    [size] => 23903
+)
+PHPExcel_Exception: Your requested sheet index: 1 is out of bounds. The actual number of sheets is 1. in /Applications/MAMP/htdocs/inventario/libs/PHPExcel.php:577
+Stack trace:
+#0 /Applications/MAMP/htdocs/inventario/includes/sql.php(1151): PHPExcel->getSheet(1)
+#1 /Applications/MAMP/htdocs/inventario/add_masive.php(99): cargaMasiva('uploads/masivo/...')
+#2 {main}PHPExcel_Exception: Your requested sheet index: 1 is out of bounds. The actual number of sheets is 1. in /Applications/MAMP/htdocs/inventario/libs/PHPExcel.php:577
+Stack trace:
+#0 /Applications/MAMP/htdocs/inventario/includes/sql.php(1151): PHPExcel->getSheet(1)
+#1 /Applications/MAMP/htdocs/inventario/add_masive.php(99): cargaMasiva('uploads/masivo/...')
+#2 {main}Array
+(
+    [name] => Libro1.xlsx
+    [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+    [tmp_name] => /Applications/MAMP/tmp/php/phpdejYAx
+    [error] => 0
+    [size] => 129255
+)
